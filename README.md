@@ -12,7 +12,7 @@
 
 3. Deploy a DataZone domain from the AWS console
 
-* Navigate to the [DataZone](https://us-east-1.console.aws.amazon.com/datazone/home) home page. Click on **Create domain**
+* Navigate to the [DataZone](https://us-east-1.console.aws.amazon.com/datazone/home) home page and click on **Create domain**
 * Provide a name for the domain
 * Select the check mark next to the *Set-up this account for data consumption and publishing* under the Quick setup section
 
