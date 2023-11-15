@@ -33,13 +33,9 @@ try:
         domainIdentifier = datazone_domain_id,
         name = 'Producer - Compound Libraries'
     )
-
-    producer_compound_libraries_domain_id = r['domainId']
     
 except Exception as e:
     print(e)
-
-    producer_compound_libraries_domain_id = str(e).split()[-1]
 
 # Consumer - High-Throughput Screening
 try:
@@ -48,9 +44,5 @@ try:
         name = 'Consumer - High-Throughput Screening'
     ) 
 
-    consumer_high_throughput_screening_domain_id = r['domainId']
-    
 except Exception as e:
     print(e)
-
-    consumer_high_throughput_screening_domain_id = str(e).split()[-1]
