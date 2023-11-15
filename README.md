@@ -1,6 +1,12 @@
 # DataZone Demonstration
 
+This repository provides an easy deployment to set up an environment for demo'ing Amazon DataZone. 
 
+The instructions will deploy the architecture depicted in this diagram
+
+<img width="750" alt="bulk_load" src="https://github.com/ev2900/DataZone_Demo/blob/main/README/dataZone_architecture-GitHub.png">
+
+You can use this architecture to learn and demonstrate publishing, subscribing workflows and other aspects of DataZone
 
 ## Instructions to deploy the demo an in AWS account
 1. Launch the CloudFormation stack
