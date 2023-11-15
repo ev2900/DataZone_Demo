@@ -19,7 +19,7 @@ account_id = caller_identity.get('Account')
 # 2. via. the AWS protal create a DataZone domain. Click the quick set up box
 #
 
-datazone_domain_id = '<domain_id>'
+datazone_domain_id = 'dzd_498d049z6o1gkn'
 
 #
 # 2. Create DataZone projects
@@ -35,6 +35,8 @@ try:
     )
 
     producer_compound_libraries_domain_id = r['domainId']
+    
+    time.sleep(120)
 
 except Exception as e:
     print(e)
@@ -49,6 +51,8 @@ try:
     ) 
 
     consumer_high_throughput_screening_domain_id = r['domainId']
+    
+    time.sleep(120)
 
 except Exception as e:
     print(e)
@@ -80,8 +84,6 @@ try:
     )
     
     producer_compound_libraries_data_lake_environment_id = r['id']
-    
-    print(producer_compound_libraries_data_lake_environment_id)
     
     time.sleep(120)
     
@@ -135,6 +137,8 @@ try:
     )
     
     producer_compound_libraries_data_source_id = r['id']
+    
+    time.sleep(120)
     
 except Exception as e:
     print(e)
