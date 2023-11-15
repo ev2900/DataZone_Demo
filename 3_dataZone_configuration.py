@@ -55,7 +55,7 @@ try:
     r = dzc.create_environment(
         domainIdentifier = datazone_domain_id,
         environmentProfileIdentifier = enviorment_profile_dict['DataLakeProfile'],
-        name = 'Data Lake Environment',
+        name = 'Compound Libraries Data Lake Environment',
         projectIdentifier = project_dict['Producer - Compound Libraries']
     )
     
@@ -69,7 +69,7 @@ try:
     r = dzc.create_environment(
         domainIdentifier = datazone_domain_id,
         environmentProfileIdentifier = enviorment_profile_dict['DataLakeProfile'],
-        name = 'Data Lake Environment',
+        name = 'High-Throughput Screening Data Lake Environment',
         projectIdentifier = project_dict['Consumer - High-Throughput Screening']
     )
 
