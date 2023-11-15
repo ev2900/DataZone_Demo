@@ -16,6 +16,8 @@
 * Provide a name for the domain
 * Select the check mark next to the *Set-up this account for data consumption and publishing* under the Quick setup section
 
+<img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/DataZone_Demo/blob/main/README/quick_setup.png">
+
 4. Run the following from the terminal of the [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9control/home) environment
 
 ```python DataZone_Demo/2_dataZone_configuration.py```
