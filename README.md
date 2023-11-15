@@ -1,2 +1,2 @@
-# AWS DataZone Demonstration
+# DataZone Demonstration
 
