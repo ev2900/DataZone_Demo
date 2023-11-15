@@ -20,6 +20,10 @@
 
 * Click on **Create domain**
 
-4. Run the following from the terminal of the [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9control/home) environment
+4. Update the ```datazone_domain_id``` variable in [2_dataZone_configuration.py](https://github.com/ev2900/DataZone_Demo/blob/main/2_dataZone_configuration.py) file
+
+To find the domain id of the DataZone domain you just deployed look at the URL for the DataZone portal. For example if the URL is https://dzd_498d049z6o1gkn.datazone.us-east-1.on.aws the domain id is dzd_498d049z6o1gkn. Once you update the variable with the domain id save the file.
+
+6. Run the following from the terminal of the [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9control/home) environment
 
 ```python DataZone_Demo/2_dataZone_configuration.py```
