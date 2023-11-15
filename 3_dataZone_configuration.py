@@ -19,7 +19,7 @@ account_id = caller_identity.get('Account')
 # 2. via. the AWS protal create a DataZone domain. Click the quick set up box
 #
 
-datazone_domain_id = '<domain_id>'
+datazone_domain_id = 'dzd_dlw5mvh11a4giv'
 
 #
 # 3. Get the id of the projects in DataZone
@@ -63,6 +63,17 @@ try:
     
 except Exception as e:
     print(e)
+    
+    # If the enviorment already exists get the ID
+    enviorment_dict = {}
+    
+    r = dzc.list_environments(domainIdentifier = datazone_domain_id, projectIdentifier = project_dict['Producer - Compound Libraries'])
+    
+    for enviorment in r['items']:
+        
+        enviorment_dict[enviorment['name']] = enviorment['id']
+    
+    producer_compound_libraries_data_lake_environment_id = enviorment_dict['Compound Libraries Data Lake Environment']
     
 # Consumer - High-Throughput Screening
 try:
@@ -115,6 +126,21 @@ try:
 except Exception as e:
     print(e)
     
+    # If the data source already exists get the ID
+    data_source_dict = {}
+    
+    r = dzc.list_data_sources(
+        domainIdentifier = datazone_domain_id,
+        environmentIdentifier = producer_compound_libraries_data_lake_environment_id,
+        projectIdentifier = project_dict['Producer - Compound Libraries']
+    )
+    
+    for data_source in r['items']:
+        
+        data_source_dict[data_source['name']] = data_source['dataSourceId']
+        
+    producer_compound_libraries_data_source_id = data_source_dict['Glue Data Catalog Compound Libraries']
+    
 #
 # 5. Run the data source
 #
@@ -127,3 +153,25 @@ try:
 
 except Exception as e:
     print(e)
+
+#
+# 6. Create glossary
+#
+
+try:
+    r = dzc.create_glossary(
+        description = 'Glossary terms for compond libraries data set(s)',
+        domainIdentifier = datazone_domain_id,
+        name = 'Compound Libraries',
+        owningProjectIdentifier = project_dict['Producer - Compound Libraries'],
+        status = 'ENABLED'
+    )
+
+    compound_libraries_glossary_id = r['id']
+
+except Exception as e:
+    print(e)
+    
+#
+# 7. Create glossary terms
+#
