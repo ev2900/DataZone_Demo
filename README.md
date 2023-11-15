@@ -6,7 +6,9 @@ The instructions will deploy the architecture depicted in this diagram
 
 <img width="750" alt="bulk_load" src="https://github.com/ev2900/DataZone_Demo/blob/main/README/dataZone_architecture-GitHub.png">
 
-You can use this architecture to learn and demonstrate publishing, subscribing workflows and other aspects of DataZone
+You can use this architecture to learn and demonstrate publishing, subscribing workflows and other aspects of DataZone.
+
+The sample data used for this demo is fake data that represents a few data sets that may be used by a Pharmaceutical company during drug development research and clinical trials.
 
 ## Instructions to deploy the demo an in AWS account
 1. Launch the CloudFormation stack
