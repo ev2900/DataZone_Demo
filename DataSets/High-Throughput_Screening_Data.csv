@@ -1,0 +1,8 @@
+Compound ID,Library Plate,Well Position,Concentration (µM),Target Enzyme Activity (%),Cell Viability (%),Hit/No Hit
+CPD-001,Plate001,A1,10,85,100,No Hit
+CPD-002,Plate001,A2,10,25,95,Hit
+CPD-003,Plate001,A3,10,90,98,No Hit
+CPD-004,Plate001,A4,10,30,99,Hit
+CPD-005,Plate001,A5,10,80,95,No Hit
+CPD-006,Plate001,A6,10,20,90,Hit
+CPD-384,Plate001,P16,10,75,100,No Hit

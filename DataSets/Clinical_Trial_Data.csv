@@ -1,0 +1,6 @@
+Trial ID,Drug Name,Phase,Condition,Start Date,End Date,Participants,Age Range,Gender,Primary Outcome,Result
+CT-0001,Drug A,II,Hypertension,1/1/2023,6/1/2023,150,40-65,All,Reduction in systolic blood pressure,-12 mmHg
+CT-0002,Drug B,I,Type 2 Diabetes,3/1/2023,9/1/2023,75,50-70,All,Change in HbA1c levels,-0.50%
+CT-0003,Drug C,III,Major Depression,2/1/2023,8/1/2023,300,18-65,All,Improvement in MADRS score,-10 points
+CT-0004,Drug D,I/II,Breast Cancer,4/1/2023,10/1/2023,100,30-70,Female,Tumor response rate,40% response
+CT-0005,Drug E,IV,Rheumatoid Arthritis,5/1/2023,11/1/2023,200,18-75,All,Improvement in ACR20 score,35% achieved

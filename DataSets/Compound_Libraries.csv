@@ -1,0 +1,6 @@
+Compound ID,Chemical Name,Molecular Formula,Molecular Weight,LogP,H-Bond Donors,H-Bond Acceptors,Rotatable Bonds,SMILES,Bioactivity (pIC50)
+CMPD000001,Aspirin,C9H8O4,180.16,1.19,1,4,3,O=C(C)Oc1ccccc1C(=O)O,3.1
+CMPD000002,Paracetamol,C8H9NO2,151.16,0.46,2,2,2,CC(=O)Nc1ccc(O)cc1,2.54
+CMPD000003,Ibuprofen,C13H18O2,206.29,3.97,1,2,3,CC(C)Cc1ccc(cc1)C@@HC(=O)O,4
+CMPD000004,Caffeine,C8H10N4O2,194.19,-0.07,0,6,0,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,5.15
+CMPD000005,Nicotine,C10H14N2,162.23,1.17,0,2,1,CN1CCC[C@H]1c2cccnc2,5.6
