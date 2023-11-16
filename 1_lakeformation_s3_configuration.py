@@ -41,7 +41,7 @@ account_id = caller_identity.get('Account')
 
 lfc = boto3.client('lakeformation')
 
-data_lake_settings = {'DataLakeAdmins': [{'DataLakePrincipalIdentifier': 'arn:aws:iam::' + account_id + ':role/admin'}], 'CreateDatabaseDefaultPermissions': [], 'CreateTableDefaultPermissions': []}
+data_lake_settings = {'DataLakeAdmins': [{'DataLakePrincipalIdentifier': 'arn:aws:iam::' + account_id + ':role/Admin'}], 'CreateDatabaseDefaultPermissions': [], 'CreateTableDefaultPermissions': []}
 
 lfc.put_data_lake_settings(DataLakeSettings = data_lake_settings)
 
