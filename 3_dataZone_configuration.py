@@ -19,7 +19,7 @@ account_id = caller_identity.get('Account')
 # 2. via. the AWS protal create a DataZone domain. Click the quick set up box
 #
 
-datazone_domain_id = 'dzd_dlw5mvh11a4giv'
+datazone_domain_id = '<domain_id>'
 
 #
 # 3. Get the id of the projects in DataZone
