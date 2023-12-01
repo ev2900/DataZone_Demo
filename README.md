@@ -1,8 +1,8 @@
 # DataZone Demonstration
 
-<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-0-blue">
+<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-22-blue">
 
-This repository provides an easy deployment to set up an environment for demo'ing Amazon DataZone. 
+This repository provides an easy deployment to set up an environment for demo'ing Amazon DataZone.
 
 The instructions will deploy the architecture depicted in this diagram
 
@@ -17,7 +17,7 @@ The sample data used for this demo is fake data that represents a few data sets 
 
 [![Launch CloudFormation Stack](https://sharkech-public.s3.amazonaws.com/misc-public/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=data-zone&templateURL=https://sharkech-public.s3.amazonaws.com/misc-public/0_datazone_cloudformation.yaml)
 
-2. Run the following from the terminal of the [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9control/home) environment that was deployed by the CloudFormation stack 
+2. Run the following from the terminal of the [Cloud9](https://us-east-1.console.aws.amazon.com/cloud9control/home) environment that was deployed by the CloudFormation stack
 
 ```pip install boto3```
 
