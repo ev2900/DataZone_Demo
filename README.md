@@ -1,6 +1,6 @@
 # DataZone Demonstration
 
-<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-32-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-459-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-051-green">
+<img width="275" alt="map-user" src="https://img.shields.io/badge/cloudformation template deployments-32-blue"> <img width="85" alt="map-user" src="https://img.shields.io/badge/views-462-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-051-green">
 
 This repository provides an easy deployment to set up an environment for demo'ing Amazon DataZone.
 
